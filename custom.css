@@ -1,17 +1,26 @@
-
-.nav ul {
-    font-size: 10rem;
-}
-
-.nav-item{
-    font-size: .75rem;
-}
-
 .hr-nav{
-    width: 50%;
+    width: 45%;
     border-top: 1px solid rgba(255, 255, 255, .25);
   }
 
-  .pad-bum{
-      padding-bottom: 0;;
-  }
+.pad-bum{
+    padding-bottom: 0;;
+}
+
+
+
+
+/* **********
+media queries
+********** */
+
+@media (min-width: 992px) { 
+    .nav-item{
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        margin-left: 100px;
+    }
+}
+
