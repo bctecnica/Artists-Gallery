@@ -1,3 +1,17 @@
-nav ul {
-    font-size: 1.5rem;
+
+.nav ul {
+    font-size: 10rem;
 }
+
+.nav-item{
+    font-size: .75rem;
+}
+
+.hr-nav{
+    width: 50%;
+    border-top: 1px solid rgba(255, 255, 255, .25);
+  }
+
+  .pad-bum{
+      padding-bottom: 0;;
+  }
