@@ -12,6 +12,12 @@
     color: white !important;
 }
 
+.vl {
+    border-left: 1px solid grey;
+    height: 100;
+    margin: 5px;
+  }
+
 
 /* **********
 media queries
