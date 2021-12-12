@@ -21,6 +21,7 @@
 .works-img {
     max-width: 70%;
     height: 70%;  
+    box-shadow: 5px 5px 10px;
 }
 
 .profile-img {
@@ -33,6 +34,7 @@
     font-family: cursive;
     font-size: 2.5rem;
 }
+
 
 
 /* **********
