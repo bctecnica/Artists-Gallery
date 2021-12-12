@@ -29,6 +29,12 @@
     border-radius: 100%;
 }
 
+.logo-font{
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
+
 /* **********
 media queries
 ********** */
