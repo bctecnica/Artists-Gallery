@@ -42,42 +42,48 @@
     font-size: 2.5rem;
 }
 
+
+
 /* FOOTER */
 .footer-basic {
     padding:20px 0;
     background-color:#ffffff;
     color:#4b4c4d;
-  }
+}
+
+.contact-footer{
+    padding:0px 0px 25px 0px;
+}
   
-  .footer-basic ul {
+.footer-basic ul {
     padding:0;
     list-style:none;
     text-align:center;
     font-size:18px;
     line-height:1.6;
     margin-bottom:0;
-  }
+}
   
-  .footer-basic li {
+.footer-basic li {
     padding:0 10px;
-  }
+}
   
-  .footer-basic ul a {
+.footer-basic ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.8;
-  }
+}
   
-  .footer-basic ul a:hover {
+.footer-basic ul a:hover {
     opacity:1;
-  }
+}
   
-  .footer-basic .social {
+.footer-basic .social {
     text-align:center;
     padding-bottom:5px;
-  }
+}
   
-  .footer-basic .social > a {
+.footer-basic .social > a {
     font-size:24px;
     width:40px;
     height:40px;
@@ -89,19 +95,39 @@
     margin:0 8px;
     color:inherit;
     opacity:0.7;
-  }
+}
   
-  .footer-basic .social > a:hover {
+.footer-basic .social > a:hover {
     opacity:0.9;
-  }
+}
   
-  .footer-basic .copyright {
+.footer-basic .copyright {
     margin-top:15px;
     text-align:center;
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
-  }
+}
+
+/* CONTACT CARDS */
+.card{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 20px; 
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.thin-underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
 
 /* **********
 media queries
