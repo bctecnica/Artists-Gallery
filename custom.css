@@ -24,6 +24,11 @@
     font-size: 2.5rem;
 }
 
+.nav-item {
+    font-size: 18px;
+    padding: 3px;
+}
+
 /* MAIN */
 .works-img {
     max-width: 75%;
@@ -136,11 +141,8 @@ media queries
 
 @media (min-width: 992px) { 
     .nav-item{
-        font-size: 1.5rem;
-    }
-
-    nav ul {
-        margin-left: 100px;
+        font-size: 1.6rem;
     }
 }
+
 
