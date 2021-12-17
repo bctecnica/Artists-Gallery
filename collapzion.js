@@ -54,7 +54,7 @@
                 
                 var _child_el = '<ul class="_child_collapzion">';                
                     jQuery.each(child_attribute, function( i, val ) {
-                        _child_el += '<li><span class="_title ">'+val.label+'</span><a href="'+val.url+'" class="_col_shadow _collapz_child edit" style="background-color:'+_settings._child_btn_color+'"><i class="material-icons">'+val.icon+'</i></a></li>';                 
+                        _child_el += '<li><span class="_title ">'+val.label+'</span><a href="'+val.url+'" class="_col_shadow _collapz_child edit" style="background-color:'+_settings._child_btn_color+'"><i class="material-icons">'+val.icon+'</i></a></li>';            
                     });
                 _child_el += '</ul>';
                
