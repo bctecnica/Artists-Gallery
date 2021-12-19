@@ -221,10 +221,16 @@ ul._child_collapzion li span._title {
 /* gallery pictures  */
 
 .gallery-cards {
+
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: 1fr;
+}
+
+.gallery-card {
+    min-width: 250px;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
 /* **********
@@ -240,8 +246,8 @@ media queries
         display: grid;
         justify-content: center;
         align-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 1%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:1%;
     }
     
 }
@@ -249,7 +255,7 @@ media queries
 
 @media (min-width: 576px) { 
     .gallery-card {
-        min-width: 200px;
-        max-width: 220px;
+        min-width: 250px;
+        max-width: 250px;
     }
 }
