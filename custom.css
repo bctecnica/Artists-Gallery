@@ -254,22 +254,7 @@ CONTACT
 MEDIA QUERIES
 ********** */
 
-@media (min-width: 992px) { 
-    .nav-item{
-        font-size: 1.6rem;
-    }
-
-    .gallery-cards {
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap:1%;
-    }
-    
-}
-
-@media (min-width: 561px) and (max-width: 991px) { 
+@media (min-width: 561px) { 
     .nav-item{
         font-size: 1.6rem;
     }
@@ -285,6 +270,21 @@ MEDIA QUERIES
     .gallery-card {
         min-width: 250px;
         max-width: 250px;
+    }
+    
+}
+
+@media (min-width: 992px) { 
+    .nav-item{
+        font-size: 1.6rem;
+    }
+
+    .gallery-cards {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:1%;
     }
     
 }
