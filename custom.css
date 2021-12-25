@@ -128,9 +128,7 @@ HOME
     margin:0;
 }
 
-.gallery-cards .card-img-top{
-    box-shadow: 5px 5px 10px;
-}
+
 
 /* **********
 GALLERY
@@ -147,6 +145,10 @@ GALLERY
     min-width: 250px;
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+.gallery-cards .card-img-top{
+    box-shadow: 5px 5px 10px;
 }
 
 .thin-underline{
