@@ -185,6 +185,31 @@ a:hover {
     cursor: zoom-in;
 }
 
+.nav-link {
+    color: #aaa;
+    
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+#navbar-jump-to{
+    justify-content: center;
+}
+
+.card-bg nav{
+    box-shadow: 0px 0px 10px 0px rgb(52,58,64);
+}
+
+#navbar-jump-to .nav-item{
+    font-size: 1.2rem;
+}
+
+.nav-pills > li > a.active {
+    background-color: rgba(247, 247, 247, .25) !important;
+}
+
 
 /* gallery floating nav */
 a._collapz_parant._close:after, a._collapz_parant._open:after {
