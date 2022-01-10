@@ -181,6 +181,10 @@ a:hover {
     margin-top: 10px;
 }
 
+.gallery-container img {
+    cursor: zoom-in;
+}
+
 
 /* gallery floating nav */
 a._collapz_parant._close:after, a._collapz_parant._open:after {
