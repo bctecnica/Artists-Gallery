@@ -113,6 +113,10 @@ HOME
     box-shadow: 5px 5px 10px;
 }
 
+.go-to-gallery {
+    cursor: alias;
+}
+
 .profile-img {
     max-width: 100%;
     height: 100%;  
@@ -124,12 +128,7 @@ HOME
     font-size: 2.5rem;
 }
 
-.to-gallery-link{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-size: 1.2rem;
-    font-style: italic;
-}
+
 /* extras */
 .margin-remove {
     margin:0;
