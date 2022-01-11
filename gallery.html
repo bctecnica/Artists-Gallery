@@ -469,12 +469,8 @@
         </div> <!-- /container -->
 
 
-
-    
-
-
-        
         <!-- floating nav -->
+        <!-- used to render floating nav -->
         <script type="text/javascript">
             jQuery(function($){
                 $('#btncollapzion').Collapzion({
@@ -512,12 +508,10 @@
             });
         </script>
 
+        <!-- turns floating nav on or off depending on screen size -->
         <script>
-            var onresize = function(e) {
-                //note i need to pass the event as an argument to the function
-                width = document.getElementById("body").offsetWidth;
-                console.log(width)
-                console.log(window.event);
+            const onresize = function(e) {
+                const width = document.getElementById("body").offsetWidth;
                 if(width > 992){
                 document.getElementById("btncollapzion").style.display = "none";
             } else {
@@ -527,7 +521,6 @@
             window.addEventListener("resize", onresize);
             window.addEventListener("load", onresize)
         </script>
-
 
         <div id="btncollapzion" class="btn_collapzion"></div> <!-- /floating nav -->
     
