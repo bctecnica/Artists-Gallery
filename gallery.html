@@ -17,7 +17,7 @@
 
         <title>Hello, world!</title>
     </head>
-    <body class="card-bg" data-spy="scroll" data-target="#navbar-jump-to" data-offset="90">
+    <body id="body" class="card-bg" data-spy="scroll" data-target="#navbar-jump-to" data-offset="90">
 
         <!-- nav -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark logo-padding">
@@ -52,10 +52,8 @@
             </div>
         </nav> <!--/nav -->
 
-
-
-
-
+        <!-- secondary-nav -->
+        
         <nav id="navbar-jump-to" class="navbar sticky-top navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Jump to:</a>
             <ul class="nav nav-pills red">
@@ -76,16 +74,7 @@
               </li>
 
             </ul>
-          </nav>
-
-
-          
-
-
-
-
-
-
+          </nav> <!-- /secondary-nav -->
 
 
         <!-- gallery-->
@@ -522,7 +511,26 @@
                 });
             });
         </script>
-        <div id="btncollapzion" class=" btn_collapzion"></div> <!-- /floating nav -->
+
+        <script>
+            var onresize = function(e) {
+                //note i need to pass the event as an argument to the function
+                width = e.target.outerWidth;
+                console.log(width)
+                if(width > 992){
+                document.getElementById("btncollapzion").style.display = "none";
+            } else {
+                document.getElementById("btncollapzion").style.display = "block";
+            }
+            }
+            
+
+            window.addEventListener("resize", onresize);
+            window.addEventListener("load", onresize)
+        </script>
+
+
+        <div id="btncollapzion" class="btn_collapzion"></div> <!-- /floating nav -->
     
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

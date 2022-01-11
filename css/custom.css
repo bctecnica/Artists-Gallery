@@ -150,7 +150,6 @@ GALLERY
 .gallery-card {
     min-width: 250px;
     max-width: 100%;
-    margin-bottom: 20px;
 }
 
 .gallery-cards .card-img-top{
@@ -196,6 +195,7 @@ a:hover {
 
 #navbar-jump-to{
     justify-content: center;
+    border-top: 1px solid rgba(247, 247, 247, .25);
 }
 
 .card-bg nav{
@@ -212,6 +212,9 @@ a:hover {
 
 
 /* gallery floating nav */
+
+
+
 a._collapz_parant._close:after, a._collapz_parant._open:after {
     content: "\E5CD";
     font-family: 'Material Icons';
@@ -287,6 +290,10 @@ ul._child_collapzion li span._title {
     box-shadow: 0 4px 17px 0 rgba(0, 0, 0, .1), 0 1px 32px 0 rgba(0, 0, 0, .1), 0 2px 9px -1px rgba(0, 0, 0, .1);
 }
 
+#navbar-jump-to {
+    display: none;
+}
+
 /* **********
 CONTACT
 ********** */
@@ -320,14 +327,14 @@ MEDIA QUERIES
         justify-content: center;
         align-content: center;
         grid-template-columns: 1fr 1fr;
-        gap:1%;
+        gap: 1%;
     }
 
     .gallery-card {
         min-width: 250px;
-        max-width: 250px;
+        max-width: 300px;
     }
-    
+
 }
 
 @media (min-width: 992px) { 
@@ -342,7 +349,15 @@ MEDIA QUERIES
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 1%;
     }
-    
+
+    #navbar-jump-to {
+        display: flex;
+    } 
+
+    #btncollapzion {
+        display: block;
+    } 
+
 }
 
 
