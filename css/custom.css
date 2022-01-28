@@ -358,6 +358,10 @@ MEDIA QUERIES
         display: block;
     } 
 
+    #top-nav-items {
+        padding-bottom: 0px!important;
+    }
+
 }
 
 
