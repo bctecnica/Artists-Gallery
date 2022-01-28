@@ -154,6 +154,11 @@ GALLERY
 
 .gallery-cards .card-img-top{
     box-shadow: 5px 5px 10px;
+    transition: all .2s ease-in-out;
+}
+
+.gallery-cards .card-img-top:hover{
+    transform: scale(1.05); 
 }
 
 .thin-underline{
