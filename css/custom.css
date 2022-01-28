@@ -335,6 +335,10 @@ MEDIA QUERIES
         max-width: 300px;
     }
 
+    .artist-picture {
+        padding: 30px 0;
+    }
+
 }
 
 @media (min-width: 992px) { 
