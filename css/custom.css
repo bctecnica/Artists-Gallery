@@ -236,6 +236,7 @@ a._collapz_parant._close:after, a._collapz_parant._open:after {
     font-style: normal;
     color: #fff;
 }
+
 a._collapz_parant {
     color: #fff;
     border-radius: 50%;
@@ -249,15 +250,19 @@ a._collapz_parant {
     transition: transform .1s linear 0ms;
     transform: rotate(44deg);
 }
+
 a._collapz_parant._close {
     background-color: #e45353;
 }
+
 a._collapz_parant._close:after {
     left: 0;
 }
+
 a._collapz_parant._open {
     background-color: #2f353e;
 }
+
 ul._child_collapzion {
     position: absolute;
     margin: 0;
@@ -275,6 +280,7 @@ ul._child_collapzion {
     -moz-transition: -moz-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
 }
+
 ul._child_collapzion li a._collapz_child {
     color: #fff;
     border-radius: 50%;
@@ -285,19 +291,25 @@ ul._child_collapzion li a._collapz_child {
     margin-right: 22px;
     text-align: center;
 }
+
 ul._child_collapzion li {
     text-align: right;
 }
+
 ul._child_collapzion li a._collapz_child i {
     margin-top: 15px;
 }
+
 ul._child_collapzion li span._title {
     position: relative;
     left: 8px;
     top: -6px;
-    padding: 3px; 
-    background-color: rgba(255, 255, 255, .75)
+    padding: 5px;
+    color: honeydew;
+    border-radius: 10px;
+    background-color: #2f353e;
 }
+
 ._col_shadow {
     box-shadow: 0 4px 17px 0 rgba(0, 0, 0, .1), 0 1px 32px 0 rgba(0, 0, 0, .1), 0 2px 9px -1px rgba(0, 0, 0, .1);
 }
