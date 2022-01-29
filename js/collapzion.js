@@ -43,12 +43,7 @@
         // toggle button 
         _base.collapz_btn = function(_element, child_attribute){
             if(_element.hasClass('_close')){
-                
-                _element.css({
-                    '-webkit-transform': 'rotate(90deg)',
-                    '-moz-transform': 'rotate(90deg)',
-                    'transform': 'rotate(90deg)',
-                });
+
                 _element.removeClass('_close');
                 _element.addClass('_open');
                 
@@ -64,11 +59,7 @@
             } else {
                 $("._child_collapzion" ).css( {'transform':'translate3d(0, 0%, 0)'} );
                 $(this).parent().find('ul._child_collapzion').remove();
-                _element.css({
-                    '-webkit-transform': 'rotate(44deg)',
-                    '-moz-transform': 'rotate(44deg)',
-                    'transform': 'rotate(44deg)',
-                });
+
                 _element.removeClass('_open');
                 _element.addClass('_close');                
             }          

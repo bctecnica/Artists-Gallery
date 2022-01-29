@@ -227,8 +227,18 @@ a:hover {
 
 
 /* gallery floating nav */
-a._collapz_parant._close:after, a._collapz_parant._open:after {
-    content: "\E5CD";
+a._collapz_parant._close:after  {
+    content: "\E5D2";     
+    font-family: 'Material Icons';
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    font-style: normal;
+    color: #fff;
+}
+
+a._collapz_parant._open:after {
+    content: "\E5CD";     
     font-family: 'Material Icons';
     font-size: 40px;
     position: relative;
@@ -238,6 +248,7 @@ a._collapz_parant._close:after, a._collapz_parant._open:after {
 }
 
 a._collapz_parant {
+
     color: #fff;
     border-radius: 50%;
     width: 80px;
@@ -245,10 +256,6 @@ a._collapz_parant {
     display: inline-block;
     text-decoration: none;
     float: right;
-    -webkit-transition: -webkit-transform .1s linear 0ms;
-    -moz-transition: -moz-transform .1s linear 0ms;
-    transition: transform .1s linear 0ms;
-    transform: rotate(44deg);
 }
 
 a._collapz_parant._close {
@@ -260,6 +267,7 @@ a._collapz_parant._close:after {
 }
 
 a._collapz_parant._open {
+    content: "\E5CD";
     background-color: #2f353e;
 }
 
@@ -273,12 +281,6 @@ ul._child_collapzion {
     width: 100%;
     overflow: auto;
     z-index: 10;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -moz-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    -moz-transition: -moz-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
 }
 
 ul._child_collapzion li a._collapz_child {
@@ -311,7 +313,7 @@ ul._child_collapzion li span._title {
 }
 
 ._col_shadow {
-    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, .1), 0 1px 32px 0 rgba(0, 0, 0, .1), 0 2px 9px -1px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 10px 0px rgb(52,58,64); 
 }
 
 #navbar-jump-to {
