@@ -139,13 +139,16 @@ HOME
     font-size: 2.5rem;
 }
 
-
 /* extras */
 .margin-remove {
     margin:0;
 }
 
-
+.painting-tag {
+    border: rgba(0, 0, 0, 0.2) 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: cursive;
+}
 
 /* **********
 GALLERY
@@ -326,15 +329,6 @@ ul._child_collapzion li span._title {
 #navbar-jump-to {
     display: none;
 }
-
-/* **********
-CONTACT
-********** */
-
-/* CONTACT CARDS */
-
-
-
 
 /* **********
 MEDIA QUERIES
