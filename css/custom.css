@@ -6,6 +6,10 @@ nav {
     box-shadow: 0 0 10px 0 black;
 }
 
+body {
+    background-color: rgb(248, 248, 248);
+}
+
 /* NAV */
 .hr-nav {
     width: 45%;
@@ -38,9 +42,17 @@ nav {
 }
 
 /* FOOTER */
+.contact-header {
+    text-align: center;
+    max-width: 5rem;
+    margin-top: -1.8rem;
+    background-color: rgb(248, 248, 248);
+    color: rgb(160, 160, 160);
+}
+
 .footer-basic {
     padding:20px 0;
-    background-color:#ffffff;
+    background-color: rgb(248, 248, 248);
     color:#4b4c4d;
 }
 
@@ -78,16 +90,14 @@ nav {
   
 .footer-basic .social > a > img {
     font-size:24px;
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     line-height:40px;
     display:inline-block;
     text-align:center;
-    border-radius:50%;
     margin:0 8px;
     color:inherit;
     opacity:0.75;
-    filter: grayscale(100%);
 } 
   
 .footer-basic .social > a > img:hover {
@@ -101,10 +111,6 @@ nav {
     color:#aaa;
     margin-bottom:0;
 }
-
-/* #img-enlarge {
- !important;
-} */
 
  
 /* **********
@@ -153,8 +159,6 @@ GALLERY
 }
 
 .gallery-card {
-    /* min-width: 250px;
-    max-width: 100%; */
     margin: 10px;
 }
 
@@ -182,8 +186,16 @@ a:hover {
 }
 
 .card-bg{
-    background-color: rgb(248, 248, 248);
-    
+    background-color: rgb(248, 248, 248);  
+}
+
+.card{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 20px; 
+    cursor: pointer;
 }
 
 .footer-top{
@@ -220,11 +232,6 @@ a:hover {
 .nav-pills > li > a.active {
     background-color: rgba(247, 247, 247, .25) !important;
 }
-
-.main-background-color{
-    background-color: rgb(248, 248, 248);
-}
-
 
 /* gallery floating nav */
 a._collapz_parant._close:after  {
@@ -325,19 +332,9 @@ CONTACT
 ********** */
 
 /* CONTACT CARDS */
-.card{
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    padding: 20px; 
-    cursor: pointer;
-}
 
-.contact-card:hover{
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
+
+
 
 /* **********
 MEDIA QUERIES
