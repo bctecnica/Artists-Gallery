@@ -146,6 +146,10 @@ MY WORKS
     cursor: alias;
 }
 
+.go-to-gallery:hover {
+    text-decoration: none;
+}
+
 /* extras */
 /* .margin-remove {
     margin:0;
@@ -160,6 +164,14 @@ MY WORKS
 /* **********
 GALLERY
 ********** */
+
+
+.bg-darker {
+    background: rgba(45, 49, 53, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+}
 
 /* gallery pictures  */
 .gallery-cards {
@@ -249,7 +261,7 @@ a._collapz_parant._close:after  {
     font-family: 'Material Icons';
     font-size: 40px;
     position: relative;
-    top: 10px;
+    top: 5px;
     font-style: normal;
     color: #fff;
 }
@@ -259,24 +271,26 @@ a._collapz_parant._open:after {
     font-family: 'Material Icons';
     font-size: 40px;
     position: relative;
-    top: 10px;
+    top: 5px;
     font-style: normal;
     color: #fff;
 }
 
 a._collapz_parant {
-
     color: #fff;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     display: inline-block;
     text-decoration: none;
     float: right;
 }
 
 a._collapz_parant._close {
-    background-color: #e45353;
+    background-color: rgba(45, 49, 53, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
 }
 
 a._collapz_parant._close:after {
@@ -285,7 +299,10 @@ a._collapz_parant._close:after {
 
 a._collapz_parant._open {
     content: "\E5CD";
-    background-color: #2f353e;
+    background-color: rgba(45, 49, 53, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
 }
 
 ul._child_collapzion {
@@ -307,8 +324,12 @@ ul._child_collapzion li a._collapz_child {
     height: 53px;
     display: inline-block;
     margin: 6px 14px;
-    margin-right: 22px;
+    margin-right: 16px;
     text-align: center;
+    background-color: rgba(45, 49, 53, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
 }
 
 ul._child_collapzion li {
@@ -326,7 +347,7 @@ ul._child_collapzion li span._title {
     padding: 5px;
     color: honeydew;
     border-radius: 10px;
-    background-color: #2f353e;
+    background-color: rgba(45, 49, 53, 0.8);
 }
 
 ._col_shadow {
