@@ -26,17 +26,17 @@
         <div class="container-fluid">
             <div id="top-nav-items" style="width: 100%">
                 <ul class="navbar-nav d-flex flex-row justify-content-around align-items-center">
-                    <div>
-                        <img src="img/home-icon.png" alt="home-icon" class="nav-icon">
-                        <a class="nav-subtext" href="index.html">Home</a>
-                     </div>
+                     <a href="index.html">
+                        <img src="img/home-icon.png" alt="gallery-icon" class="nav-icon">
+                        <div class="nav-subtext active-nav-tab">Artist</div>
+                    </a>
                     <div class="text-center">
                         <img src="img/MCA-nav-logo.png" alt="logo-icon" class="logo-icon">
                     </div>
-                    <div>
+                    <a href="gallery.html">
                         <img src="img/gallery-icon.png" alt="gallery-icon" class="nav-icon">
-                        <a class="nav-subtext active-nav-tab" href="gallery.html">Gallery</a>
-                    </div>
+                        <div class="nav-subtext">Gallery</div>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -513,6 +513,7 @@
             
         </div> <!-- /container -->
 
+        <div id="btncollapzion" class="btn_collapzion"></div> <!-- /floating nav -->
 
         <!-- floating nav -->
         <!-- used to render floating nav -->
@@ -569,7 +570,7 @@
             window.addEventListener("load", onresize)
         </script>
 
-        <div id="btncollapzion" class="btn_collapzion"></div> <!-- /floating nav -->
+
     
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script>$(document).ready(function(){$(".magnific").magnificPopup({type:"image",closeOnContentClick:!0,image:{verticalFit:!1}})});</script>
