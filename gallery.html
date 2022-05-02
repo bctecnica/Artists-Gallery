@@ -27,15 +27,15 @@
             <div id="top-nav-items" style="width: 100%">
                 <ul class="navbar-nav d-flex flex-row justify-content-around align-items-center">
                      <a href="index.html">
-                        <img src="img/home-icon.png" alt="gallery-icon" class="nav-icon">
-                        <div class="nav-subtext active-nav-tab">Artist</div>
+                        <img src="img/home-icon-2.png" alt="home-icon" class="nav-icon">
+                        <div class="nav-subtext">Artist</div>
                     </a>
                     <div class="text-center">
                         <img src="img/MCA-nav-logo.png" alt="logo-icon" class="logo-icon">
                     </div>
                     <a href="gallery.html">
                         <img src="img/gallery-icon.png" alt="gallery-icon" class="nav-icon">
-                        <div class="nav-subtext">Gallery</div>
+                        <div class="nav-subtext active-nav-tab">Gallery</div>
                     </a>
                 </ul>
             </div>
@@ -70,7 +70,7 @@
 
         <!-- portrait -->
          <div class="container gallery-container" > <!--container -->
-            <h1 id="portraiture" class="display-4 mt-5 text-muted thin-underline">Portraiture</h1>
+            <h1 id="portraiture" class="display-4 mt-3 text-muted thin-underline">Portraiture</h1>
             <div class="gallery-cards">
 
                 <div class="card gallery-card">
@@ -566,8 +566,8 @@
                 console.log("block");
             }
             }
+            window.addEventListener("load", onresize);
             window.addEventListener("resize", onresize);
-            window.addEventListener("load", onresize)
         </script>
 
 

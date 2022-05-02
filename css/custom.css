@@ -415,6 +415,10 @@ MEDIA QUERIES
         width: 300px;
     }
 
+    #portraiture{
+        margin-top: 2.5rem !important;
+    }
+
     .gallery-cards {
         display: grid;
         justify-content: center;
