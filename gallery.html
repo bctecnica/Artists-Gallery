@@ -21,37 +21,28 @@
     </head>
     <body id="body" class="card-bg" data-spy="scroll" data-target="#navbar-jump-to" data-offset="90">
 
-        <!-- nav -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-darker logo-padding">
-            <div class="container-fluid">
-                <div class="container text-center">
-                    <a href="index.html" class="text-white text-center nav-link logo-padding">
-                        <hr class="hr-nav">
-                        <h2 class="logo-font">Michael Colgan's</h2>
-                        <h6>Artwork</h6>
-                        <hr class="hr-nav">
-                    </a>
-                </div>
-                <div id="top-nav-items" class="container-fluid pb-3">
-                    <ul class="navbar-nav d-flex flex-row justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link " href="index.html">Home</a>
-                        </li>
-                        <div class="vl"></div>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about_me.html">My Work</a>
-                        </li>
-                        <div class="vl"></div>
-                        <li class="nav-item">
-                            <a class="nav-link active-nav-tab" href="gallery.html">Gallery</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darker logo-padding">
+        <div class="container-fluid">
+            <div id="top-nav-items" style="width: 100%">
+                <ul class="navbar-nav d-flex flex-row justify-content-around align-items-center">
+                    <div>
+                        <img src="img/home-icon.png" alt="home-icon" class="nav-icon">
+                        <a class="nav-subtext" href="index.html">Home</a>
+                     </div>
+                    <div class="text-center">
+                        <img src="img/MCA-nav-logo.png" alt="logo-icon" class="logo-icon">
+                    </div>
+                    <div>
+                        <img src="img/gallery-icon.png" alt="gallery-icon" class="nav-icon">
+                        <a class="nav-subtext active-nav-tab" href="gallery.html">Gallery</a>
+                    </div>
+                </ul>
             </div>
-        </nav> <!--/nav -->
+        </div>
+    </nav> <!--/nav -->
 
         <!-- secondary-nav -->
-        
         <nav id="navbar-jump-to" class="navbar sticky-top navbar-dark bg-darker">
             <a class="navbar-brand" href="#">Jump to:</a>
             <ul class="nav nav-pills red">
@@ -566,10 +557,12 @@
         <script>
             const onresize = function(e) {
                 const width = document.getElementById("body").offsetWidth;
-                if(width > 992){
+                if(width >= 992){
                 document.getElementById("btncollapzion").style.display = "none";
+                console.log("none");
                 } else {
                 document.getElementById("btncollapzion").style.display = "block";
+                console.log("block");
             }
             }
             window.addEventListener("resize", onresize);
