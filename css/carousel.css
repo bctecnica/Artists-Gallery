@@ -1,0 +1,180 @@
+
+  .carousel{
+    display:block !important;
+    max-height:none !important;
+    position:relative;
+  }
+  
+  #MessageViewBody .fallback,
+  body.MsgBody .fallback{ 
+    display:block; 
+  }
+  #MessageViewBody .carousel,
+  body.MsgBody .carousel{
+    display:none !important;
+  }
+  
+  .carousel-container {
+    width: 100%;
+  }
+  
+  .carousel a{
+    width:100%;
+    display:block;
+    overflow:hidden;
+  }  
+  
+  .carousel img{
+    display:block!important;
+    width:100% !important;
+    height:auto !important;
+  }
+  
+  .carousel.responsive{
+    width:100% !important;
+  }
+  
+  .carousel.responsive .car-cont{
+    width:100% !important;
+    height:auto !important;
+  }  
+  
+  /* Fade  */
+  .carousel.car-fade a{
+    position:absolute;
+    top:0px;
+    left:0px; 
+    opacity:0;   
+    -webkit-animation: car-anim 23s linear infinite;    
+  }
+  
+  .carousel.car-fade a:nth-child(1){
+    position:relative;
+    -webkit-animation-delay: -24s;    
+  }
+  .carousel.car-fade a:nth-child(2){
+    -webkit-animation-delay: -18s;    
+  }
+  .carousel.car-fade a:nth-child(3){
+    -webkit-animation-delay: -12s;    
+  }
+  .carousel.car-fade a:nth-child(4){
+    -webkit-animation-delay: -6s;    
+  }
+  
+  @-webkit-keyframes car-anim
+  {
+      /* start fade in */
+      0% {
+        z-index:2;
+        opacity:0;
+      }
+      /* end fade in */
+      5%{
+        opacity:1;
+      }
+      /* start fade out */
+      33%{
+        z-index:2;
+      }
+      33.1%{
+        z-index:1;
+      }
+      /* end fade out */
+      38%{
+        opacity:1;
+      }
+      /* drop z-index to 1 */
+      38.1%{
+        opacity:0;
+      }
+      100%{
+        z-index:1;
+        opacity:0;
+      }
+  }
+  
+  /* EFFECTS */
+  .carousel.effects img{
+    -webkit-animation-name: effect-zoomin;
+    -webkit-animation-duration: 23s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .carousel.effects a:nth-child(1) img{
+    -webkit-animation-delay: -24s;    
+  }
+  .carousel.effects a:nth-child(2) img{
+    -webkit-animation-delay: -18s;    
+  }
+  .carousel.effects a:nth-child(3) img{
+    -webkit-animation-delay: -12s;    
+  }
+  .carousel.effects a:nth-child(4) img{
+    -webkit-animation-delay: -6s;    
+  }
+
+  .carousel.effects img.zoom-out{
+    -webkit-animation-name: effect-zoomout;
+  }
+  .carousel.effects img.pan-right{
+    -webkit-animation-name: effect-panright;
+  }
+  .carousel.effects img.pan-left{
+    -webkit-animation-name: effect-panleft;
+  }
+
+  @-webkit-keyframes effect-zoomout
+  {
+    0% {
+      -webkit-transform: scale(1.2);
+    }
+    33.33%{
+      -webkit-transform: scale(1);
+    }
+    38%{
+      -webkit-transform: scale(1);
+    }
+    100%{
+      -webkit-transform: scale(1.2);
+    }
+  }
+  
+  @-webkit-keyframes effect-panright
+  {
+    0% {
+      -webkit-transform: scale(1.2);
+      margin-left:-10%;
+    }
+    33.33%{
+      -webkit-transform: scale(1.2);
+      margin-left:10%;
+    }
+    38%{
+      -webkit-transform: scale(1.2);
+      margin-left:10%;
+    }
+    100%{
+      -webkit-transform: scale(1.2);
+      margin-left:-10%;
+    }
+  }
+  @-webkit-keyframes effect-panleft
+  {
+    0% {
+      -webkit-transform: scale(1.2);
+      margin-left:10%;
+    }
+    33.33%{
+      -webkit-transform: scale(1.2);
+      margin-left:-10%;
+    }
+    38%{
+      -webkit-transform: scale(1.2);
+      margin-left:-10%;
+    }
+    100%{
+      -webkit-transform: scale(1.2);
+      margin-left:10%;
+    }
+  }

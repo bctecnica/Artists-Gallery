@@ -8,6 +8,7 @@
         <!-- Imports -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="css/custom.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
 
         <title>MCArtwork - Home</title>
         <link rel="icon" href="img/MCA.png" type="image/icon type">
@@ -41,7 +42,16 @@
             <div class="row mt-4 mb-5 text-muted"> 
                 <div class="col-lg-6 order-lg-2">
                     <div class="d-flex justify-content-center artist-picture">
-                        <img class="profile-img my-5" src="artwork/high-res/grandad.jpeg" alt="Artists self portrait"> 
+                        <div class="carousel-container mb-4">
+                            <div class="carousel car-fade responsive effects" style="overflow:hidden;display:none;max-height:0px;">
+                              <div class="car-cont" style="position:relative;width:500px;height:320px;">
+                                <a href="https://www.google.com/search?q=castles"><img class="pan-left" src="img/test.png"></a>
+                                <a href="https://www.google.com/search?q=meadows"><img class="zoom-out" src="img/test.png"></a>
+                                <a href="https://www.google.com/search?q=coast"><img class="pan-right" src="img/test.png"></a>
+                                <a href="https://www.google.com/search?q=meadows"><img class="zoom-out" src="img/test.png"></a>
+                              </div>
+                            </div>
+                        </div>
                     </div>
                 </div> 
                 <div class="col-lg-6 order-lg-1">
@@ -50,6 +60,9 @@
                     </div>
                 </div> 
             </div> <!--/about me -->
+            <hr> 
+
+
 
             <!-- Portraiture -->
             <div class="row pt-5 py-4 mt-4 text-muted"> 
@@ -154,7 +167,7 @@
                 </footer>
             </div> <!-- /footer -->
 
-         </div>
+         </div> <!-- /container -->
 
     </body>
 </html>
