@@ -14,7 +14,7 @@
                 'position':'fixed',
                 'right':'0',
                 'left': '-15px',
-                'bottom': '-60px',
+                'bottom': '-90px',
                 'text-align':'center',
                 'padding': '0px 8px',
                 'display':'block',
