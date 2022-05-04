@@ -51,7 +51,8 @@ body {
 }
 
 .logo-icon {
-    width: 170px;
+    width: 180px;
+    margin-left: .5rem;
 }
 
 /* FOOTER */
@@ -378,8 +379,8 @@ MEDIA QUERIES
     }
 
     .nav-icon-container {
-        margin-left: 8rem;
-        margin-right: 8rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .nav-icon {
@@ -412,6 +413,11 @@ MEDIA QUERIES
         font-size: 1.6rem;
     }
 
+    .nav-icon-container {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+
     .nav-icon {
         max-width: 40px;
     }
@@ -421,7 +427,8 @@ MEDIA QUERIES
     }
 
     .logo-icon {
-        width: 300px;
+        width: 320px;
+        margin-left: 1rem;
     }
 
     #portraiture{
