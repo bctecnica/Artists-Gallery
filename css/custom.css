@@ -14,6 +14,10 @@ body {
     background-color: rgb(248, 248, 248);
 }
 
+h5,p {
+    color: rgb(100, 100, 100);
+} 
+
 /* NAV */
 
 .bg-darker {
@@ -48,13 +52,6 @@ body {
     display:block;
     margin:auto;
 }
-
-/* .nav-subtext {
-    color: rgba(40, 45, 49, 0.9);
-    font-size: 1rem;
-    font-weight: 300;
-    height: 1px;
-} */
 
 .logo-icon {
     width: 180px;
@@ -254,6 +251,10 @@ a:hover {
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     padding: 20px; 
     cursor: pointer;
+}
+
+.sold {
+    color: rgb(161, 161, 161);
 }
 
 .footer-top{
