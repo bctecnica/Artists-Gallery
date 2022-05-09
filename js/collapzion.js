@@ -17,7 +17,7 @@
                 'bottom': '-95px',
                 'text-align':'center',
                 'padding': '0px 8px',
-                'display':'block',
+                'display':'none',
                 'margin-bottom':'34px'
             },
             _child_attribute:[
