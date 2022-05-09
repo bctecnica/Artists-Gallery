@@ -22,7 +22,7 @@
     width:100%;
     display:block;
     overflow:hidden;
-  }  
+  }
   
   .carousel img{
     display:block!important;
@@ -45,7 +45,7 @@
     top:0px;
     left:0px; 
     opacity:0;   
-    -webkit-animation: car-anim 22s linear infinite;    
+    -webkit-animation: car-anim 23s linear infinite;    
   }
   
   .carousel.car-fade a:nth-child(1){
@@ -97,7 +97,7 @@
   /* EFFECTS */
   .carousel.effects img{
     -webkit-animation-name: effect-zoomin;
-    -webkit-animation-duration: 22s;
+    -webkit-animation-duration: 23s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
   }
