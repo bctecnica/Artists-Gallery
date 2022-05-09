@@ -14,11 +14,16 @@ body {
     background-color: rgb(248, 248, 248);
 }
 
+h1,
 h5,
 p {
     color: rgb(99, 98, 98);
 } 
 
+.page-title {
+    font-size: 2.6rem;
+    font-weight: 300;
+}
 /* NAV */
 
 .bg-darker {
@@ -192,7 +197,7 @@ HOME
 
 .painting-tag {
     border: rgba(0, 0, 0, 0.1) 1px solid;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
     font-weight: 400;
     background-color: rgb(248, 248, 248);
 }
@@ -293,6 +298,12 @@ a:hover {
 
 .nav-pills > li > a.active {
     background-color: rgba(247, 247, 247, .25) !important;
+}
+
+.jump-to-contact {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
 }
 
 /* gallery floating nav */
@@ -435,10 +446,6 @@ MEDIA QUERIES
         min-width: 250px;
     }
 
-    .artist-picture {
-        padding: 30px 0;
-    }
-
 }
 
 @media (min-width: 992px) { 
@@ -454,10 +461,6 @@ MEDIA QUERIES
     .nav-icon {
         max-width: 40px;
     }
-
-    /* .nav-subtext {
-        font-size: 1.2rem;
-    } */
 
     .logo-icon {
         width: 320px;
