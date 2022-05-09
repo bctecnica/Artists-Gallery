@@ -197,7 +197,7 @@ HOME
 
 .painting-tag {
     border: rgba(0, 0, 0, 0.1) 1px solid;
-    box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 1.95px 1.95px 2.6px;
     font-weight: 400;
     background-color: rgb(248, 248, 248);
 }
@@ -409,6 +409,7 @@ ul._child_collapzion li span._title {
     display: none;
 }
 
+
 /* **********
 MEDIA QUERIES
 ********** */
@@ -430,10 +431,6 @@ MEDIA QUERIES
     .nav-icon {
         max-width: 40px;
     }
-    
-    /* .nav-subtext {
-        font-size: 1rem;
-    } */
 
     .gallery-cards {
         display: grid;
