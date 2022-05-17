@@ -28,7 +28,6 @@ p {
 
 .bg-darker {
     background: rgba(40, 45, 49, 0.9);
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
 }
@@ -95,7 +94,6 @@ p {
     padding: .5rem;
     opacity: 0;
     animation: fade 5s linear;
-    border: white .5px solid;
 }
 
 .nav-guide-artwork::after,
@@ -106,7 +104,7 @@ p {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent rgba(45, 45, 45, .9) transparent;
 }
 
 .nav-guide-artwork {
@@ -437,12 +435,14 @@ MEDIA QUERIES
     .nav-guide-artwork {
         top: 80px;
         right: 165px;
+        border: white .5px solid;
     }
 
     .nav-guide-bio { 
         top: 80px;
         left: 165px;
         z-index: 2000;
+        border: white .5px solid;
     }
 
     #portraiture{
